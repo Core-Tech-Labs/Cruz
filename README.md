@@ -1,4 +1,4 @@
 Cruz
 ====
 
-New Social for the LGBT Community.! 
+New Social Network for the LGBT Community.! 
