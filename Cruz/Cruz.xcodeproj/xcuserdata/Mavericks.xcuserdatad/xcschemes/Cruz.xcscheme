@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "997292DB19EF19C800DAA795"
+               BlueprintIdentifier = "99903FBD19F19725009AA399"
                BuildableName = "Cruz.app"
                BlueprintName = "Cruz"
                ReferencedContainer = "container:Cruz.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "997292F719EF19C900DAA795"
+               BlueprintIdentifier = "99903FD919F19726009AA399"
                BuildableName = "CruzTests.xctest"
                BlueprintName = "CruzTests"
                ReferencedContainer = "container:Cruz.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "997292F719EF19C900DAA795"
+               BlueprintIdentifier = "99903FD919F19726009AA399"
                BuildableName = "CruzTests.xctest"
                BlueprintName = "CruzTests"
                ReferencedContainer = "container:Cruz.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "997292DB19EF19C800DAA795"
+            BlueprintIdentifier = "99903FBD19F19725009AA399"
             BuildableName = "Cruz.app"
             BlueprintName = "Cruz"
             ReferencedContainer = "container:Cruz.xcodeproj">
@@ -75,7 +75,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "997292DB19EF19C800DAA795"
+            BlueprintIdentifier = "99903FBD19F19725009AA399"
             BuildableName = "Cruz.app"
             BlueprintName = "Cruz"
             ReferencedContainer = "container:Cruz.xcodeproj">
@@ -93,7 +93,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "997292DB19EF19C800DAA795"
+            BlueprintIdentifier = "99903FBD19F19725009AA399"
             BuildableName = "Cruz.app"
             BlueprintName = "Cruz"
             ReferencedContainer = "container:Cruz.xcodeproj">

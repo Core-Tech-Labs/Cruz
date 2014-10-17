@@ -7,52 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		997292E219EF19C800DAA795 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 997292E119EF19C800DAA795 /* main.m */; };
-		997292E519EF19C800DAA795 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 997292E419EF19C800DAA795 /* AppDelegate.m */; };
-		997292E819EF19C800DAA795 /* Cruz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 997292E619EF19C800DAA795 /* Cruz.xcdatamodeld */; };
-		997292EB19EF19C800DAA795 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 997292EA19EF19C800DAA795 /* ViewController.m */; };
-		997292EE19EF19C900DAA795 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 997292EC19EF19C900DAA795 /* Main.storyboard */; };
-		997292F019EF19C900DAA795 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 997292EF19EF19C900DAA795 /* Images.xcassets */; };
-		997292F319EF19C900DAA795 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 997292F119EF19C900DAA795 /* LaunchScreen.xib */; };
-		997292FF19EF19C900DAA795 /* CruzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 997292FE19EF19C900DAA795 /* CruzTests.m */; };
+		99903FC419F19725009AA399 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99903FC319F19725009AA399 /* main.m */; };
+		99903FC719F19725009AA399 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99903FC619F19725009AA399 /* AppDelegate.m */; };
+		99903FCA19F19725009AA399 /* Cruz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 99903FC819F19725009AA399 /* Cruz.xcdatamodeld */; };
+		99903FCD19F19726009AA399 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99903FCC19F19726009AA399 /* ViewController.m */; };
+		99903FD019F19726009AA399 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99903FCE19F19726009AA399 /* Main.storyboard */; };
+		99903FD219F19726009AA399 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99903FD119F19726009AA399 /* Images.xcassets */; };
+		99903FD519F19726009AA399 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99903FD319F19726009AA399 /* LaunchScreen.xib */; };
+		99903FE119F19727009AA399 /* CruzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99903FE019F19727009AA399 /* CruzTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		997292F919EF19C900DAA795 /* PBXContainerItemProxy */ = {
+		99903FDB19F19726009AA399 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 997292D419EF19C800DAA795 /* Project object */;
+			containerPortal = 99903FB619F19724009AA399 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 997292DB19EF19C800DAA795;
+			remoteGlobalIDString = 99903FBD19F19725009AA399;
 			remoteInfo = Cruz;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		997292DC19EF19C800DAA795 /* Cruz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cruz.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		997292E019EF19C800DAA795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		997292E119EF19C800DAA795 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		997292E319EF19C800DAA795 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		997292E419EF19C800DAA795 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		997292E719EF19C800DAA795 /* Cruz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cruz.xcdatamodel; sourceTree = "<group>"; };
-		997292E919EF19C800DAA795 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		997292EA19EF19C800DAA795 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		997292ED19EF19C900DAA795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		997292EF19EF19C900DAA795 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		997292F219EF19C900DAA795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		997292F819EF19C900DAA795 /* CruzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CruzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		997292FD19EF19C900DAA795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		997292FE19EF19C900DAA795 /* CruzTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CruzTests.m; sourceTree = "<group>"; };
+		99903FBE19F19725009AA399 /* Cruz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cruz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99903FC219F19725009AA399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99903FC319F19725009AA399 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		99903FC519F19725009AA399 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		99903FC619F19725009AA399 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		99903FC919F19725009AA399 /* Cruz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cruz.xcdatamodel; sourceTree = "<group>"; };
+		99903FCB19F19726009AA399 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		99903FCC19F19726009AA399 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		99903FCF19F19726009AA399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99903FD119F19726009AA399 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		99903FD419F19726009AA399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		99903FDA19F19726009AA399 /* CruzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CruzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99903FDF19F19727009AA399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99903FE019F19727009AA399 /* CruzTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CruzTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		997292D919EF19C800DAA795 /* Frameworks */ = {
+		99903FBB19F19725009AA399 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		997292F519EF19C900DAA795 /* Frameworks */ = {
+		99903FD719F19726009AA399 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -62,62 +62,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		997292D319EF19C800DAA795 = {
+		99903FB519F19724009AA399 = {
 			isa = PBXGroup;
 			children = (
-				997292DE19EF19C800DAA795 /* Cruz */,
-				997292FB19EF19C900DAA795 /* CruzTests */,
-				997292DD19EF19C800DAA795 /* Products */,
+				99903FC019F19725009AA399 /* Cruz */,
+				99903FDD19F19726009AA399 /* CruzTests */,
+				99903FBF19F19725009AA399 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		997292DD19EF19C800DAA795 /* Products */ = {
+		99903FBF19F19725009AA399 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				997292DC19EF19C800DAA795 /* Cruz.app */,
-				997292F819EF19C900DAA795 /* CruzTests.xctest */,
+				99903FBE19F19725009AA399 /* Cruz.app */,
+				99903FDA19F19726009AA399 /* CruzTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		997292DE19EF19C800DAA795 /* Cruz */ = {
+		99903FC019F19725009AA399 /* Cruz */ = {
 			isa = PBXGroup;
 			children = (
-				997292E319EF19C800DAA795 /* AppDelegate.h */,
-				997292E419EF19C800DAA795 /* AppDelegate.m */,
-				997292E919EF19C800DAA795 /* ViewController.h */,
-				997292EA19EF19C800DAA795 /* ViewController.m */,
-				997292EC19EF19C900DAA795 /* Main.storyboard */,
-				997292EF19EF19C900DAA795 /* Images.xcassets */,
-				997292F119EF19C900DAA795 /* LaunchScreen.xib */,
-				997292E619EF19C800DAA795 /* Cruz.xcdatamodeld */,
-				997292DF19EF19C800DAA795 /* Supporting Files */,
+				99903FC519F19725009AA399 /* AppDelegate.h */,
+				99903FC619F19725009AA399 /* AppDelegate.m */,
+				99903FCB19F19726009AA399 /* ViewController.h */,
+				99903FCC19F19726009AA399 /* ViewController.m */,
+				99903FCE19F19726009AA399 /* Main.storyboard */,
+				99903FD119F19726009AA399 /* Images.xcassets */,
+				99903FD319F19726009AA399 /* LaunchScreen.xib */,
+				99903FC819F19725009AA399 /* Cruz.xcdatamodeld */,
+				99903FC119F19725009AA399 /* Supporting Files */,
 			);
 			path = Cruz;
 			sourceTree = "<group>";
 		};
-		997292DF19EF19C800DAA795 /* Supporting Files */ = {
+		99903FC119F19725009AA399 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				997292E019EF19C800DAA795 /* Info.plist */,
-				997292E119EF19C800DAA795 /* main.m */,
+				99903FC219F19725009AA399 /* Info.plist */,
+				99903FC319F19725009AA399 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		997292FB19EF19C900DAA795 /* CruzTests */ = {
+		99903FDD19F19726009AA399 /* CruzTests */ = {
 			isa = PBXGroup;
 			children = (
-				997292FE19EF19C900DAA795 /* CruzTests.m */,
-				997292FC19EF19C900DAA795 /* Supporting Files */,
+				99903FE019F19727009AA399 /* CruzTests.m */,
+				99903FDE19F19727009AA399 /* Supporting Files */,
 			);
 			path = CruzTests;
 			sourceTree = "<group>";
 		};
-		997292FC19EF19C900DAA795 /* Supporting Files */ = {
+		99903FDE19F19727009AA399 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				997292FD19EF19C900DAA795 /* Info.plist */,
+				99903FDF19F19727009AA399 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -125,13 +125,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		997292DB19EF19C800DAA795 /* Cruz */ = {
+		99903FBD19F19725009AA399 /* Cruz */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9972930219EF19C900DAA795 /* Build configuration list for PBXNativeTarget "Cruz" */;
+			buildConfigurationList = 99903FE419F19727009AA399 /* Build configuration list for PBXNativeTarget "Cruz" */;
 			buildPhases = (
-				997292D819EF19C800DAA795 /* Sources */,
-				997292D919EF19C800DAA795 /* Frameworks */,
-				997292DA19EF19C800DAA795 /* Resources */,
+				99903FBA19F19725009AA399 /* Sources */,
+				99903FBB19F19725009AA399 /* Frameworks */,
+				99903FBC19F19725009AA399 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -139,46 +139,46 @@
 			);
 			name = Cruz;
 			productName = Cruz;
-			productReference = 997292DC19EF19C800DAA795 /* Cruz.app */;
+			productReference = 99903FBE19F19725009AA399 /* Cruz.app */;
 			productType = "com.apple.product-type.application";
 		};
-		997292F719EF19C900DAA795 /* CruzTests */ = {
+		99903FD919F19726009AA399 /* CruzTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9972930519EF19C900DAA795 /* Build configuration list for PBXNativeTarget "CruzTests" */;
+			buildConfigurationList = 99903FE719F19727009AA399 /* Build configuration list for PBXNativeTarget "CruzTests" */;
 			buildPhases = (
-				997292F419EF19C900DAA795 /* Sources */,
-				997292F519EF19C900DAA795 /* Frameworks */,
-				997292F619EF19C900DAA795 /* Resources */,
+				99903FD619F19726009AA399 /* Sources */,
+				99903FD719F19726009AA399 /* Frameworks */,
+				99903FD819F19726009AA399 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				997292FA19EF19C900DAA795 /* PBXTargetDependency */,
+				99903FDC19F19726009AA399 /* PBXTargetDependency */,
 			);
 			name = CruzTests;
 			productName = CruzTests;
-			productReference = 997292F819EF19C900DAA795 /* CruzTests.xctest */;
+			productReference = 99903FDA19F19726009AA399 /* CruzTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		997292D419EF19C800DAA795 /* Project object */ = {
+		99903FB619F19724009AA399 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0600;
 				ORGANIZATIONNAME = "Core Tech Labs, Inc";
 				TargetAttributes = {
-					997292DB19EF19C800DAA795 = {
+					99903FBD19F19725009AA399 = {
 						CreatedOnToolsVersion = 6.0.1;
 					};
-					997292F719EF19C900DAA795 = {
+					99903FD919F19726009AA399 = {
 						CreatedOnToolsVersion = 6.0.1;
-						TestTargetID = 997292DB19EF19C800DAA795;
+						TestTargetID = 99903FBD19F19725009AA399;
 					};
 				};
 			};
-			buildConfigurationList = 997292D719EF19C800DAA795 /* Build configuration list for PBXProject "Cruz" */;
+			buildConfigurationList = 99903FB919F19725009AA399 /* Build configuration list for PBXProject "Cruz" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -186,29 +186,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 997292D319EF19C800DAA795;
-			productRefGroup = 997292DD19EF19C800DAA795 /* Products */;
+			mainGroup = 99903FB519F19724009AA399;
+			productRefGroup = 99903FBF19F19725009AA399 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				997292DB19EF19C800DAA795 /* Cruz */,
-				997292F719EF19C900DAA795 /* CruzTests */,
+				99903FBD19F19725009AA399 /* Cruz */,
+				99903FD919F19726009AA399 /* CruzTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		997292DA19EF19C800DAA795 /* Resources */ = {
+		99903FBC19F19725009AA399 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				997292EE19EF19C900DAA795 /* Main.storyboard in Resources */,
-				997292F319EF19C900DAA795 /* LaunchScreen.xib in Resources */,
-				997292F019EF19C900DAA795 /* Images.xcassets in Resources */,
+				99903FD019F19726009AA399 /* Main.storyboard in Resources */,
+				99903FD519F19726009AA399 /* LaunchScreen.xib in Resources */,
+				99903FD219F19726009AA399 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		997292F619EF19C900DAA795 /* Resources */ = {
+		99903FD819F19726009AA399 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -218,48 +218,48 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		997292D819EF19C800DAA795 /* Sources */ = {
+		99903FBA19F19725009AA399 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				997292E519EF19C800DAA795 /* AppDelegate.m in Sources */,
-				997292E219EF19C800DAA795 /* main.m in Sources */,
-				997292EB19EF19C800DAA795 /* ViewController.m in Sources */,
-				997292E819EF19C800DAA795 /* Cruz.xcdatamodeld in Sources */,
+				99903FC719F19725009AA399 /* AppDelegate.m in Sources */,
+				99903FC419F19725009AA399 /* main.m in Sources */,
+				99903FCD19F19726009AA399 /* ViewController.m in Sources */,
+				99903FCA19F19725009AA399 /* Cruz.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		997292F419EF19C900DAA795 /* Sources */ = {
+		99903FD619F19726009AA399 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				997292FF19EF19C900DAA795 /* CruzTests.m in Sources */,
+				99903FE119F19727009AA399 /* CruzTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		997292FA19EF19C900DAA795 /* PBXTargetDependency */ = {
+		99903FDC19F19726009AA399 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 997292DB19EF19C800DAA795 /* Cruz */;
-			targetProxy = 997292F919EF19C900DAA795 /* PBXContainerItemProxy */;
+			target = 99903FBD19F19725009AA399 /* Cruz */;
+			targetProxy = 99903FDB19F19726009AA399 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		997292EC19EF19C900DAA795 /* Main.storyboard */ = {
+		99903FCE19F19726009AA399 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				997292ED19EF19C900DAA795 /* Base */,
+				99903FCF19F19726009AA399 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		997292F119EF19C900DAA795 /* LaunchScreen.xib */ = {
+		99903FD319F19726009AA399 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				997292F219EF19C900DAA795 /* Base */,
+				99903FD419F19726009AA399 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -267,7 +267,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9972930019EF19C900DAA795 /* Debug */ = {
+		99903FE219F19727009AA399 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -308,7 +308,7 @@
 			};
 			name = Debug;
 		};
-		9972930119EF19C900DAA795 /* Release */ = {
+		99903FE319F19727009AA399 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -343,7 +343,7 @@
 			};
 			name = Release;
 		};
-		9972930319EF19C900DAA795 /* Debug */ = {
+		99903FE519F19727009AA399 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -353,7 +353,7 @@
 			};
 			name = Debug;
 		};
-		9972930419EF19C900DAA795 /* Release */ = {
+		99903FE619F19727009AA399 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -363,7 +363,7 @@
 			};
 			name = Release;
 		};
-		9972930619EF19C900DAA795 /* Debug */ = {
+		99903FE819F19727009AA399 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -382,7 +382,7 @@
 			};
 			name = Debug;
 		};
-		9972930719EF19C900DAA795 /* Release */ = {
+		99903FE919F19727009AA399 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -400,45 +400,45 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		997292D719EF19C800DAA795 /* Build configuration list for PBXProject "Cruz" */ = {
+		99903FB919F19725009AA399 /* Build configuration list for PBXProject "Cruz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9972930019EF19C900DAA795 /* Debug */,
-				9972930119EF19C900DAA795 /* Release */,
+				99903FE219F19727009AA399 /* Debug */,
+				99903FE319F19727009AA399 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9972930219EF19C900DAA795 /* Build configuration list for PBXNativeTarget "Cruz" */ = {
+		99903FE419F19727009AA399 /* Build configuration list for PBXNativeTarget "Cruz" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9972930319EF19C900DAA795 /* Debug */,
-				9972930419EF19C900DAA795 /* Release */,
+				99903FE519F19727009AA399 /* Debug */,
+				99903FE619F19727009AA399 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		9972930519EF19C900DAA795 /* Build configuration list for PBXNativeTarget "CruzTests" */ = {
+		99903FE719F19727009AA399 /* Build configuration list for PBXNativeTarget "CruzTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9972930619EF19C900DAA795 /* Debug */,
-				9972930719EF19C900DAA795 /* Release */,
+				99903FE819F19727009AA399 /* Debug */,
+				99903FE919F19727009AA399 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		997292E619EF19C800DAA795 /* Cruz.xcdatamodeld */ = {
+		99903FC819F19725009AA399 /* Cruz.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				997292E719EF19C800DAA795 /* Cruz.xcdatamodel */,
+				99903FC919F19725009AA399 /* Cruz.xcdatamodel */,
 			);
-			currentVersion = 997292E719EF19C800DAA795 /* Cruz.xcdatamodel */;
+			currentVersion = 99903FC919F19725009AA399 /* Cruz.xcdatamodel */;
 			path = Cruz.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 997292D419EF19C800DAA795 /* Project object */;
+	rootObject = 99903FB619F19724009AA399 /* Project object */;
 }
