@@ -15,6 +15,11 @@
 		99903FD219F19726009AA399 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99903FD119F19726009AA399 /* Images.xcassets */; };
 		99903FD519F19726009AA399 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99903FD319F19726009AA399 /* LaunchScreen.xib */; };
 		99903FE119F19727009AA399 /* CruzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99903FE019F19727009AA399 /* CruzTests.m */; };
+		99903FEB19F1AD9A009AA399 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99903FEA19F1AD9A009AA399 /* ParseFacebookUtils.framework */; };
+		99903FED19F1AEDD009AA399 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99903FEC19F1AEDC009AA399 /* Bolts.framework */; };
+		99903FEF19F1AEF3009AA399 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99903FEE19F1AEF3009AA399 /* Parse.framework */; };
+		99903FF219F1AFCA009AA399 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99903FF019F1AFCA009AA399 /* Accounts.framework */; };
+		99903FF319F1AFCA009AA399 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99903FF119F1AFCA009AA399 /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +47,11 @@
 		99903FDA19F19726009AA399 /* CruzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CruzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99903FDF19F19727009AA399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99903FE019F19727009AA399 /* CruzTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CruzTests.m; sourceTree = "<group>"; };
+		99903FEA19F1AD9A009AA399 /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ParseFacebookUtils.framework; path = "../../../../Downloads/parse-library-1.4.1/ParseFacebookUtils.framework"; sourceTree = "<group>"; };
+		99903FEC19F1AEDC009AA399 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../../../Downloads/parse-library-1.4.1/Bolts.framework"; sourceTree = "<group>"; };
+		99903FEE19F1AEF3009AA399 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../../../Downloads/parse-library-1.4.1/Parse.framework"; sourceTree = "<group>"; };
+		99903FF019F1AFCA009AA399 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		99903FF119F1AFCA009AA399 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +59,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99903FF219F1AFCA009AA399 /* Accounts.framework in Frameworks */,
+				99903FF319F1AFCA009AA399 /* AudioToolbox.framework in Frameworks */,
+				99903FEB19F1AD9A009AA399 /* ParseFacebookUtils.framework in Frameworks */,
+				99903FED19F1AEDD009AA399 /* Bolts.framework in Frameworks */,
+				99903FEF19F1AEF3009AA399 /* Parse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,9 +80,14 @@
 		99903FB519F19724009AA399 = {
 			isa = PBXGroup;
 			children = (
+				99903FF019F1AFCA009AA399 /* Accounts.framework */,
+				99903FF119F1AFCA009AA399 /* AudioToolbox.framework */,
 				99903FC019F19725009AA399 /* Cruz */,
 				99903FDD19F19726009AA399 /* CruzTests */,
 				99903FBF19F19725009AA399 /* Products */,
+				99903FEE19F1AEF3009AA399 /* Parse.framework */,
+				99903FEC19F1AEDC009AA399 /* Bolts.framework */,
+				99903FEA19F1AD9A009AA399 /* ParseFacebookUtils.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -347,6 +367,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Mavericks/Downloads/parse-library-1.4.1",
+				);
 				INFOPLIST_FILE = Cruz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -357,6 +381,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/Mavericks/Downloads/parse-library-1.4.1",
+				);
 				INFOPLIST_FILE = Cruz/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
