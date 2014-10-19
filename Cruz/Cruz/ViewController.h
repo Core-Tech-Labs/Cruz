@@ -10,6 +10,12 @@
 
 @interface ViewController : UIViewController
 
+// Main View Buttons
+- (IBAction)signUpButton:(UIButton *)sender;
+- (IBAction)loginButton:(UIButton *)sender;
+
+//Slider View Controllers
+
 
 @end
 

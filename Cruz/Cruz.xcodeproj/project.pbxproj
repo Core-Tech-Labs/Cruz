@@ -80,11 +80,11 @@
 		99903FB519F19724009AA399 = {
 			isa = PBXGroup;
 			children = (
-				99903FF019F1AFCA009AA399 /* Accounts.framework */,
-				99903FF119F1AFCA009AA399 /* AudioToolbox.framework */,
 				99903FC019F19725009AA399 /* Cruz */,
 				99903FDD19F19726009AA399 /* CruzTests */,
 				99903FBF19F19725009AA399 /* Products */,
+				99903FF019F1AFCA009AA399 /* Accounts.framework */,
+				99903FF119F1AFCA009AA399 /* AudioToolbox.framework */,
 				99903FEE19F1AEF3009AA399 /* Parse.framework */,
 				99903FEC19F1AEDC009AA399 /* Bolts.framework */,
 				99903FEA19F1AD9A009AA399 /* ParseFacebookUtils.framework */,
@@ -444,6 +444,7 @@
 				99903FE619F19727009AA399 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		99903FE719F19727009AA399 /* Build configuration list for PBXNativeTarget "CruzTests" */ = {
 			isa = XCConfigurationList;
@@ -452,6 +453,7 @@
 				99903FE919F19727009AA399 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
