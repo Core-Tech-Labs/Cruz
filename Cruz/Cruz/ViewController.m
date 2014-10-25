@@ -24,7 +24,12 @@
 }
 
 - (IBAction)closeLoginView:(UIButton *)sender{
+    [closeLoginView addTarget:]
     [self.closeLoginViewAnimate:YES];
+    
+    [yourButton addTarget:instanceOfViewA
+                   action:@selector(loadWebView)
+         forControlEvents:UIControlEventTouchUpInside];
 }
 
 
