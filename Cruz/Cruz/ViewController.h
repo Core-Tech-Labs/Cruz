@@ -15,6 +15,15 @@
 - (IBAction)loginButton:(UIButton *)sender;
 
 //Slider View Controllers
+@property (strong, nonatomic) IBOutlet UIView *loginView;
+
+@property (strong, nonatomic) IBOutlet UITextField *userName;
+@property (strong, nonatomic) IBOutlet UITextField *passWord;
+@property (strong, nonatomic) IBOutlet UIButton *loginPass;
+
+
+//Close View Controller
+- (IBAction)closeLoginView:(UIButton *)sender;
 
 
 @end

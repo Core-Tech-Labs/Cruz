@@ -23,6 +23,10 @@
     
 }
 
+- (IBAction)closeLoginView:(UIButton *)sender{
+    [self.closeLoginViewAnimate:YES];
+}
+
 
 
 - (void)viewDidLoad {
