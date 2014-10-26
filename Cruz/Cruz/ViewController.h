@@ -7,14 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <PFSubclassing>
+
 
 // Main View Buttons
 - (IBAction)signUpButton:(UIButton *)sender;
 - (IBAction)loginButton:(UIButton *)sender;
 
-//Slider View Controllers
+//LoginView Controllers items
 @property (strong, nonatomic) IBOutlet UIView *loginView;
 
 @property (strong, nonatomic) IBOutlet UITextField *userName;
@@ -24,6 +26,12 @@
 
 //Close View Controller
 - (IBAction)closeLoginView:(UIButton *)sender;
+
+
+
+// SignupView Controller items
+
+
 
 
 @end

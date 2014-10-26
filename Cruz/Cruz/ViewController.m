@@ -11,31 +11,60 @@
 
 @interface ViewController ()
 
+-(void)toggleHiddenState:(BOOL)shouldHide;
+
 @end
 
 @implementation ViewController;
 
-- (IBAction)signUpButton:(UIButton *)sender{
-    
-}
+// Hidden ViewControllers when app offically loads
 
-- (IBAction)loginButton:(UIButton *)sender{
-    
-}
 
-- (IBAction)closeLoginView:(UIButton *)sender{
-    [closeLoginView addTarget:]
-    [self.closeLoginViewAnimate:YES];
-    
-    [yourButton addTarget:instanceOfViewA
-                   action:@selector(loadWebView)
-         forControlEvents:UIControlEventTouchUpInside];
+-(void)toggleHiddenState:(BOOL)shouldHide{
+    self.loginView.hidden = YES;
 }
 
 
+// LoginView Controller animations
+-(void)showLoginView{
+    [UIView animateWithDuration: .25 animations:^{
+        self.view.alpha = 1;
+        self.view.transform = CGAffineTransformMakeScale(1,1);
+    }];
+}
+
+-(void)closeLoginView{
+    [self animateWithDuration: .25 animations:^{
+        self.view.transform = CGAffineTransformMakeScale(1.3, 1.3);
+        self.view.alpha = 0.0;
+    }completion:^(BOOL finished){
+        if (finished){
+            [self.view removeFromSuperview];
+        }
+    }];
+}
 
 - (void)viewDidLoad {
+    
+    
+- (IBAction)signUpButton:(UIButton *)sender{
+        // Action needed when button is pressed by user
+}
+    
+- (IBAction)loginButton:(UIButton *)sender{
+        // Action needed when button is pressed by user
+}
+    
+    
+   
+    
+- (IBAction)closeLoginView:(UIButton *)sender{
+    [self closeLoginView];
+    }
+    
+
     [super viewDidLoad];
+    
     
   
     // Do any additional setup after loading the view, typically from a nib.
@@ -45,5 +74,8 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
+
 
 @end
