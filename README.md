@@ -1,4 +1,4 @@
-Cruz
+Cruz iOS 8 version
 ====
 
 A new social network for Transgenders and their admirers.
