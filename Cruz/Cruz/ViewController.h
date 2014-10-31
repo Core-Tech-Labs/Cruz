@@ -21,15 +21,21 @@
 
 @property (strong, nonatomic) IBOutlet UITextField *userName;
 @property (strong, nonatomic) IBOutlet UITextField *passWord;
-@property (strong, nonatomic) IBOutlet UIButton *loginPass;
 
 
-//Close View Controller
+
+//Close View Controller button
 - (IBAction)closeLoginView:(UIButton *)sender;
 
 
 
-// SignupView Controller items
+// SignUpView Controller items
+@property (strong, nonatomic) IBOutlet UIView *signUpView;
+
+@property (strong, nonatomic) IBOutlet UITextField *nickname;
+@property (strong, nonatomic) IBOutlet UITextField *email;
+@property (strong, nonatomic) IBOutlet UITextField *password;
+@property (strong, nonatomic) IBOutlet UITextField *retypePassword;
 
 
 

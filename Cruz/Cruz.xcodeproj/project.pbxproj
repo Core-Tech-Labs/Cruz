@@ -16,13 +16,13 @@
 		990CF02719FFE36A00B1AA93 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 990CF02619FFE36A00B1AA93 /* CoreLocation.framework */; };
 		990CF02919FFE37500B1AA93 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 990CF02819FFE37500B1AA93 /* CoreGraphics.framework */; };
 		990CF02B19FFE37C00B1AA93 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 990CF02A19FFE37C00B1AA93 /* CFNetwork.framework */; };
+		990CF02D19FFFF0000B1AA93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 990CF02C19FFFEFF00B1AA93 /* LaunchScreen.storyboard */; };
 		99903FC419F19725009AA399 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99903FC319F19725009AA399 /* main.m */; };
 		99903FC719F19725009AA399 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99903FC619F19725009AA399 /* AppDelegate.m */; };
 		99903FCA19F19725009AA399 /* Cruz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 99903FC819F19725009AA399 /* Cruz.xcdatamodeld */; };
 		99903FCD19F19726009AA399 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99903FCC19F19726009AA399 /* ViewController.m */; };
 		99903FD019F19726009AA399 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99903FCE19F19726009AA399 /* Main.storyboard */; };
 		99903FD219F19726009AA399 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99903FD119F19726009AA399 /* Images.xcassets */; };
-		99903FD519F19726009AA399 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99903FD319F19726009AA399 /* LaunchScreen.xib */; };
 		99903FE119F19727009AA399 /* CruzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99903FE019F19727009AA399 /* CruzTests.m */; };
 		99903FEB19F1AD9A009AA399 /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99903FEA19F1AD9A009AA399 /* ParseFacebookUtils.framework */; };
 		99903FED19F1AEDD009AA399 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99903FEC19F1AEDC009AA399 /* Bolts.framework */; };
@@ -51,6 +51,7 @@
 		990CF02619FFE36A00B1AA93 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		990CF02819FFE37500B1AA93 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		990CF02A19FFE37C00B1AA93 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		990CF02C19FFFEFF00B1AA93 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99903FBE19F19725009AA399 /* Cruz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cruz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99903FC219F19725009AA399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99903FC319F19725009AA399 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -61,7 +62,6 @@
 		99903FCC19F19726009AA399 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		99903FCF19F19726009AA399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		99903FD119F19726009AA399 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		99903FD419F19726009AA399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		99903FDA19F19726009AA399 /* CruzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CruzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		99903FDF19F19727009AA399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99903FE019F19727009AA399 /* CruzTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CruzTests.m; sourceTree = "<group>"; };
@@ -144,8 +144,8 @@
 				99903FCB19F19726009AA399 /* ViewController.h */,
 				99903FCC19F19726009AA399 /* ViewController.m */,
 				99903FCE19F19726009AA399 /* Main.storyboard */,
+				990CF02C19FFFEFF00B1AA93 /* LaunchScreen.storyboard */,
 				99903FD119F19726009AA399 /* Images.xcassets */,
-				99903FD319F19726009AA399 /* LaunchScreen.xib */,
 				99903FC819F19725009AA399 /* Cruz.xcdatamodeld */,
 				99903FC119F19725009AA399 /* Supporting Files */,
 			);
@@ -259,7 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				99903FD019F19726009AA399 /* Main.storyboard in Resources */,
-				99903FD519F19726009AA399 /* LaunchScreen.xib in Resources */,
+				990CF02D19FFFF0000B1AA93 /* LaunchScreen.storyboard in Resources */,
 				99903FD219F19726009AA399 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,14 +310,6 @@
 				99903FCF19F19726009AA399 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		99903FD319F19726009AA399 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				99903FD419F19726009AA399 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
