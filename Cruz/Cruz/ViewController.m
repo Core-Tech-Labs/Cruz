@@ -16,7 +16,7 @@
 
 @implementation ViewController;
 
-// Hidden ViewControllers when app offically loads
+// Hidden ViewControllers when app offically loads.
 
 
 // All hidden views should be added here
