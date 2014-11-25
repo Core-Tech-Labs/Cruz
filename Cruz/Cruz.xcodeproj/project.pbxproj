@@ -17,6 +17,7 @@
 		990CF02919FFE37500B1AA93 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 990CF02819FFE37500B1AA93 /* CoreGraphics.framework */; };
 		990CF02B19FFE37C00B1AA93 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 990CF02A19FFE37C00B1AA93 /* CFNetwork.framework */; };
 		990CF02D19FFFF0000B1AA93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 990CF02C19FFFEFF00B1AA93 /* LaunchScreen.storyboard */; };
+		991AB7821A2454BA00E6427A /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 991AB7811A2454BA00E6427A /* MessageUI.framework */; };
 		99903FC419F19725009AA399 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99903FC319F19725009AA399 /* main.m */; };
 		99903FC719F19725009AA399 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99903FC619F19725009AA399 /* AppDelegate.m */; };
 		99903FCA19F19725009AA399 /* Cruz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 99903FC819F19725009AA399 /* Cruz.xcdatamodeld */; };
@@ -52,6 +53,7 @@
 		990CF02819FFE37500B1AA93 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		990CF02A19FFE37C00B1AA93 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		990CF02C19FFFEFF00B1AA93 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		991AB7811A2454BA00E6427A /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		99903FBE19F19725009AA399 /* Cruz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cruz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99903FC219F19725009AA399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99903FC319F19725009AA399 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				991AB7821A2454BA00E6427A /* MessageUI.framework in Frameworks */,
 				990CF02B19FFE37C00B1AA93 /* CFNetwork.framework in Frameworks */,
 				990CF02919FFE37500B1AA93 /* CoreGraphics.framework in Frameworks */,
 				990CF02719FFE36A00B1AA93 /* CoreLocation.framework in Frameworks */,
@@ -110,6 +113,7 @@
 				99903FC019F19725009AA399 /* Cruz */,
 				99903FDD19F19726009AA399 /* CruzTests */,
 				99903FBF19F19725009AA399 /* Products */,
+				991AB7811A2454BA00E6427A /* MessageUI.framework */,
 				990CF02A19FFE37C00B1AA93 /* CFNetwork.framework */,
 				990CF02819FFE37500B1AA93 /* CoreGraphics.framework */,
 				990CF02619FFE36A00B1AA93 /* CoreLocation.framework */,
